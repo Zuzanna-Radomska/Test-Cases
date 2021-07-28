@@ -1,0 +1,44 @@
+TEST CASES FOR:
+
+A) Wyszukiwanie słowa "prowly" na stronie google.com z filtrowaniem według kategorii treści (wszystko, wideo, wiadomości itp.).
+
+
+1. 
+Title: Search for the word "prowly" on google.com with the "Maps" filter active.
+
+Preconditions: The "Maps" filter takes you to the map grid and shows you the location data.
+
+Steps:
+1. Open google.com website.
+2. Write "prowly" into search bar.
+3. Enable "Maps" filter.
+
+
+Expected Result: All details displayed about the word "prowly" are correct: address, opening hours, website. The marker on the map shows the real location.
+
+
+2.
+Title: Search for the word "prowly" on google.com with the "News" filter active.
+
+Preconditions: The "News" filter takes you to the correct tab with the correct content.
+
+Steps:
+1. Open google.com website.
+2. Write "prowly" into search bar.
+3. Enable "News" filter.
+
+Expected Result: The "News" tab only displays news, there is no other content there. All "News" items contain the word "prowly".
+
+
+
+3.Title: Search for the word "prowly" on google.com with the "Video" filter active.
+
+Preconditions: The "Video" filter takes you to the correct tab with the correct content.
+
+Steps:
+1. Open google.com website.
+2. Write "prowly" into search bar.
+3. Enable "Video" filter.
+
+Expected Result: The "Video" tab only displays news, there is no other content there. All "Video" items contain the word "prowly".
+
