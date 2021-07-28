@@ -42,3 +42,50 @@ Steps:
 
 Expected Result: The "Video" tab only displays news, there is no other content there. All "Video" items contain the word "prowly".
 
+
+
+
+TEST CASES FOR:
+
+B) Wyszukiwanie słowa "prowly" na stronie google.com z filtrowaniem po dacie.
+
+
+1.
+Title: Search for the word "prowly" with the date range "Last 24 hours" enabled.
+
+Preconditions: Results from the last 24 hours are displayed.
+
+Steps:
+1. Open google.com website.
+2. Write "prowly" into search bar.
+3. Set "Last 24 hours" date range.
+
+Expected Result: The content displayed is from the last 24 hours. For every item you search, there is time that has passed since publication.
+
+
+2.
+Title: Search for the word "prowly" with the date range "Last month" enabled.
+
+Preconditions: Results from the last month are displayed.
+
+Steps:
+1. Open google.com website.
+2. Write "prowly" into search bar.
+3. Set "Last month" date range.
+
+Expected Result: The content displayed is from the last month. For every item you search, there is a corresponding date or time that has passed since publication.
+
+
+
+
+3.
+Title: Search for the word "prowly" with a specific date range enabled.
+
+Preconditions: Results published within a predetermined date range are displayed.
+
+Steps:
+1. Open google.com website.
+2. Write "prowly" into search bar.
+3. Set specyfic date range.
+
+Expected Result: Results published during a specific time period are displayed. Results that are outside the time range are not displayed. For every item you search, there is a corresponding date or time that has passed since publication.
